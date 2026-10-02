@@ -16,3 +16,4 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+rm -f target/linux/ath79/patches-6.6/300-irqchip-irq-ath79-intc-add-irq-cascade-driver-for-QC.patch
